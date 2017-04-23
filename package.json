@@ -1,0 +1,41 @@
+{
+  "name": "filesaver",
+  "version": "1.0.0",
+  "description": "A small node utility which backups every change to a file so defect versions won't erase all your progress",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard --fix && mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimonLukas/FileSaver.git"
+  },
+  "keywords": [
+    "file",
+    "save",
+    "copy",
+    "backup"
+  ],
+  "author": "Timon Lukas <timon.lukas3@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimonLukas/FileSaver/issues"
+  },
+  "homepage": "https://github.com/TimonLukas/FileSaver#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "command-line-usage": "^4.0.0",
+    "cp": "^0.2.0",
+    "filewatcher": "^3.0.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
+    "yargs": "^7.1.0"
+  }
+}

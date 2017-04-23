@@ -1,0 +1,61 @@
+{
+  "areAllArgumentsSupplied": [
+    {
+      "arguments": {},
+      "result": false
+    },
+    {
+      "arguments": {
+        "asdf": ""
+      },
+      "result": false
+    },
+    {
+      "arguments": {
+        "input": "asdasdasd"
+      },
+      "result": false
+    },
+    {
+      "arguments": {
+        "output": "asdhakjsdhaskjd"
+      },
+      "result": false
+    },
+    {
+      "arguments": {
+        "input": "",
+        "output": "alsjdashjd"
+      },
+      "result": false
+    },
+    {
+      "arguments": {
+        "input": "askdjhaskdjhsad",
+        "output": ""
+      },
+      "result": false
+    },
+    {
+      "arguments": {
+        "input": "askdjhaskdhjsad",
+        "output": "asldahsdjkhasd"
+      },
+      "result": true
+    }
+  ],
+  "generateNewFilename": {
+    "trailing": [
+      {
+        "path": "C:/foo/bar",
+        "base": "baz",
+        "extension": ".js"
+      },
+      {
+        "path": "C:/foo/bar/",
+        "base": "baz",
+        "extension": ".js"
+      }
+    ]
+  }
+}
