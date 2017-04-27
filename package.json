@@ -39,6 +39,6 @@
     "yargs": "^7.1.0"
   },
   "bin": {
-    "fylesaver": "app.js"
+    "fylesaver": "bin/fylesaver.js"
   }
 }
