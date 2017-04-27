@@ -37,5 +37,8 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
     "yargs": "^7.1.0"
+  },
+  "bin": {
+    "fylesaver": "app.js"
   }
 }
