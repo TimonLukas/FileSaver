@@ -29,3 +29,6 @@ I do know that not everything is thoroughly tested, especially the file handling
 
 ## Motivation
 I wrote this tool since I, and many of my colleagues, have often lost files when editing them (and I am not talking about code, more graphics and the like) - especially when you save and a corrupt file is written. Also I wanted to try TDD, which I did as far as I could.
+
+## Name
+The edgy name is there so I can actually publish this to npm. Sorry. :(
