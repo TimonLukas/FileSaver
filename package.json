@@ -1,6 +1,6 @@
 {
   "name": "fylesaver",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A small node utility which backups every change to a file so defect versions won't erase all your progress",
   "main": "app.js",
   "scripts": {
